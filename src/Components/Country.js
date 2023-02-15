@@ -33,7 +33,7 @@ const Country=()=>{
         )
         .map((item,index)=>{
             return <h2 key={index}>
-                {`${item[0].toUpperCase()}`}
+                {`${item.toUpperCase()}`}
             </h2>
         })
     }
